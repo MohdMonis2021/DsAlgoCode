@@ -25,3 +25,12 @@ vector<string> fizzbuzz(int n){
     
     return result;
 }
+
+int main()
+{
+    vector<string> output = fizzbuzz(10);
+    for(string x: output)
+    {
+        cout<< x<<",";
+    }
+}
